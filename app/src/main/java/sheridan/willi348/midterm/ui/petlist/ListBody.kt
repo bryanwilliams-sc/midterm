@@ -51,7 +51,7 @@ fun MerchListItem(item: Merch) {
         Row (
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(16.dp),
-            modifier = Modifier.padding(16.dp)
+            modifier = Modifier.padding(10.dp)
         ){
             Image(
                 painter = painterResource(item.image),
